@@ -3,11 +3,14 @@ import './App.css';
 import Shakila from './Shakila';
 import Dog from './Dog';
 import DieRoll from './DieRoll';
+import RandomPokemon from './RandomPokemon';
 
 //testing out the functionalities of react.
 function App() {
   return (
     <div className="App">
+      <RandomPokemon />
+
       <Shakila />
       <Dog />
       <DieRoll />

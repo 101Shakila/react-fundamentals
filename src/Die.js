@@ -4,7 +4,7 @@ export default function Die() {
 
     return (
         <div>
-            <h4 className="Die">Die Number : {Math.floor(Math.random() * 12)}</h4>
+            <h4 className="Die">Die Number : {Math.floor(Math.random() * 151) + 1}</h4>
         </div>
     );
 }

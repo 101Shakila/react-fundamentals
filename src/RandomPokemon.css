@@ -1,0 +1,6 @@
+.PokeBoarder {
+    border: 1px;
+    border-radius: 40%;
+    color: blue;
+    border-color: black;
+}
