@@ -1,15 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
-function Shakila() {
-  return (
-    <div className='App'>
-
-      <h1>HAHAHAH</h1>
-
-    </div>
-  );
-}
+import Shakila from './Shakila';
 
 
 function Dog() {
