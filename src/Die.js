@@ -2,7 +2,7 @@ export default function Die() {
 
     return (
         <div>
-            <H4>Die Number : </H4>
+            <h4>Die Number : {Math.floor(Math.random() * 12)}</h4>
         </div>
     );
 }
