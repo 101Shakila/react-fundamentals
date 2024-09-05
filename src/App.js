@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Shakila from './Shakila';
 import Dog from './Dog';
-import Die from './Die';
+import DieRoll from './DieRoll';
 
 //testing out the functionalities of react.
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Shakila />
       <Dog />
-
+      <DieRoll />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
