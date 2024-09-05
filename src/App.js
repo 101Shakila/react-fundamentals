@@ -3,8 +3,6 @@ import './App.css';
 import Shakila from './Shakila';
 import Dog from './Dog';
 
-
-
 //testing out the functionalities of react.
 function App() {
   return (
