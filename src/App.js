@@ -10,7 +10,7 @@ function Shakila() {
     </div>
   );
 }
-
+//testing out the functionalities of react.
 function App() {
   return (
     <div className="App">
