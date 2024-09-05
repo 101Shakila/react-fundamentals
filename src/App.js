@@ -1,15 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import Shakila from './Shakila';
+import Dog from './Dog';
 
 
-function Dog() {
-  return (
-    <div className='App'>
-      <h2>What the dog doing here?</h2>
-    </div>
-  )
-}
 
 //testing out the functionalities of react.
 function App() {
