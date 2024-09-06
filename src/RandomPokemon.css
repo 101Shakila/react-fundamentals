@@ -1,6 +1,11 @@
-.PokeBoarder {
-    border: 1px;
-    border-radius: 40%;
+.RandomPokemon {
+    border: 1px soild black;
+}
+
+img {
+    size: 150px;
+}
+
+h1 {
     color: blue;
-    border-color: black;
 }

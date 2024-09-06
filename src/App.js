@@ -10,6 +10,8 @@ function App() {
   return (
     <div className="App">
       <RandomPokemon />
+      <RandomPokemon />
+      <RandomPokemon />
 
       <Shakila />
       <Dog />

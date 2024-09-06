@@ -1,16 +1,15 @@
 import "./RandomPokemon.css"
-import PokeIndex from './PokeIndex';
 
 
 //So this function will generate random pokemons and mention the number of the pokemon and generate respective pokemon.
 export default function RandomPokemon() {
     const randomNumber = (Math.floor(Math.random() * 151) + 1);
-
+    const url = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${randomNumber}.png`;
     return (
-        <div className="PokeBoarder">
-            <h1>{<PokeIndex />}{randomNumber}</h1>
+        <div className="RandomPokemon">
+            <h1>Pokemon: #{randomNumber}</h1>
             <img
-                src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${randomNumber}.png`}
+                src={url}
                 alt={`Pokemon ${randomNumber}`}
             />
         </div>
