@@ -1,6 +1,8 @@
 import "./RandomPokemon.css"
 import PokeIndex from './PokeIndex';
 
+
+//So this function will generate random pokemons and mention the number of the pokemon and generate respective pokemon.
 export default function RandomPokemon() {
     const randomNumber = (Math.floor(Math.random() * 151) + 1);
 
