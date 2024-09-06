@@ -1,11 +1,13 @@
 .RandomPokemon {
-    border: 1px soild black;
+    border: 1px solid black;
+    width: 300px;
 }
 
-img {
-    size: 150px;
+.RandomPokemon img {
+    width: 150px;
 }
 
-h1 {
+
+.RandomPokemon h1 {
     color: blue;
 }
